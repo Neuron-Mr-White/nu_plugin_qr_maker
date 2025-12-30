@@ -34,7 +34,7 @@ impl PluginCommand for ToQr {
             .input_output_type(Type::String, Type::String)
     }
 
-    fn usage(&self) -> &str {
+    fn description(&self) -> &str {
         "create qr code from given text. (to convert records into qr you must use `to json` before using `to qr`)"
     }
 
