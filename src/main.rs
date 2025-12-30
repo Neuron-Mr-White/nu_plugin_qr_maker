@@ -3,6 +3,10 @@ use crate::to_qr::ToQr;
 pub struct QrPlugin;
 
 impl nu_plugin::Plugin for QrPlugin {
+    fn version(&self) -> String {
+        env!("CARGO_PKG_VERSION").into()
+    }
+
     fn commands(&self) -> Vec<Box<dyn nu_plugin::PluginCommand<Plugin = Self>>> {
         vec![Box::new(ToQr::new())]
     }
