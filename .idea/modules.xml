@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/nu_plugin_qr_maker.iml" filepath="$PROJECT_DIR$/.idea/nu_plugin_qr_maker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/nu_plugin_terminal_qr.iml" filepath="$PROJECT_DIR$/.idea/nu_plugin_terminal_qr.iml" />
     </modules>
   </component>
 </project>

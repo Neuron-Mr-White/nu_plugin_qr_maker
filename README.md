@@ -1,4 +1,4 @@
-# nu_plugin_qr_maker
+# nu_plugin_terminal_qr
 
 A [nushell](https://www.nushell.sh/) plugin to create qr code in terminal.
 
@@ -27,12 +27,16 @@ nupm install --path nu_plugin_qr_maker -f
 git clone https://github.com/Neuron-Mr-White/nu_plugin_qr_maker.git
 cd nu_plugin_qr_maker
 cargo build
-plugin add target/debug/nu_plugin_qr_maker.exe
+plugin add target/debug/nu_plugin_terminal_qr.exe
 ```
 
 * or using cargo
 
 ```bash
-cargo install nu_plugin_qr_maker
-plugin add ~/.cargo/bin/nu_plugin_qr_makern.exe
+cargo install nu_plugin_terminal_qr
+plugin add ~/.cargo/bin/nu_plugin_terminal_qr.exe
 ```
+
+## Credits
+
+Original author: Motalleb Fallahnezhad
