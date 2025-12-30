@@ -17,14 +17,14 @@ A [nushell](https://www.nushell.sh/) plugin to create qr code in terminal.
 * using [nupm](https://github.com/nushell/nupm)
 
 ```bash
-git clone https://github.com/FMotalleb/nu_plugin_qr_maker.git
+git clone https://github.com/Neuron-Mr-White/nu_plugin_qr_maker.git
 nupm install --path nu_plugin_qr_maker -f
 ```
 
 * or compile manually
 
 ```bash
-git clone https://github.com/FMotalleb/nu_plugin_qr_maker.git
+git clone https://github.com/Neuron-Mr-White/nu_plugin_qr_maker.git
 cd nu_plugin_qr_maker
 cargo build
 plugin add target/debug/nu_plugin_qr_maker
