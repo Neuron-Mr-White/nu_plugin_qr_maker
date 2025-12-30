@@ -27,12 +27,12 @@ nupm install --path nu_plugin_qr_maker -f
 git clone https://github.com/Neuron-Mr-White/nu_plugin_qr_maker.git
 cd nu_plugin_qr_maker
 cargo build
-plugin add target/debug/nu_plugin_qr_maker
+plugin add target/debug/nu_plugin_qr_maker.exe
 ```
 
 * or using cargo
 
 ```bash
 cargo install nu_plugin_qr_maker
-plugin add ~/.cargo/bin/nu_plugin_qr_maker
+plugin add ~/.cargo/bin/nu_plugin_qr_makern.exe
 ```
