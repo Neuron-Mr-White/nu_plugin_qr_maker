@@ -986,8 +986,8 @@ dependencies = [
 ]
 
 [[package]]
-name = "nu_plugin_qr_maker"
-version = "1.1.0"
+name = "nu_plugin_terminal_qr"
+version = "1.1.1"
 dependencies = [
  "nu-plugin",
  "nu-protocol",
